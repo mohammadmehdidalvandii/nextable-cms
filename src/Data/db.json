@@ -1,0 +1,32 @@
+{
+    "networks": [
+        {
+            "id":1,
+            "color":"var(--color-red-1)",
+            "icon":"faMoneyCheck",
+            "text":"همه",
+            "number":2587
+        },
+        {
+            "id":2,
+            "color":"var(--color-green-1)",
+            "icon":"faGlobe",
+            "text":"مستقیم",
+            "number":562
+        },
+        {
+            "id":3,
+            "color":"var(--color-blue-1)",
+            "icon":"faUser",
+            "text":"تلفن",
+            "number":256
+        },
+        {
+            "id":4,
+            "color":"var(--color-green-2)",
+            "icon":"faNetworkWired",
+            "text":"تیم فروش ",
+            "number":874
+        }
+    ]
+}

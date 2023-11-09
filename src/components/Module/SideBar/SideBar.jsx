@@ -19,16 +19,16 @@ function SideBar() {
             <h5 className="sidebar-title">داشبورد</h5>
         <ul className="sidebarMenus">
             <li className="sidebarMenu">
-                <NavLink to='/Sale' className={`sideBarMenu-link ${activeMenu === '/Sale' ?'sideBarMenu-linkActive' : ''}`}>فروش</NavLink>
+                <NavLink to='/Sale'  className={`sideBarMenu-link ${activeMenu === '/Sale' ?'sideBarMenu-linkActive' : ''}`}>فروش</NavLink>
             </li>
             <li className="sidebarMenu">
-                <NavLink to='/' className={`sideBarMenu-link ${activeMenu === '/' ?'sideBarMenu-linkActive' : ''}`}>مدیریت</NavLink>
+                <NavLink to='/'  className={`sideBarMenu-link ${activeMenu === '/' ?'sideBarMenu-linkActive' : ''}`}>مدیریت</NavLink>
             </li>
             <li className="sidebarMenu">
                 <NavLink to='/' className={`sideBarMenu-link ${activeMenu === '/' ?'sideBarMenu-linkActive' : ''}`}>پشتیبانی</NavLink>
             </li>
             <li className="sidebarMenu">
-                <NavLink to='/' className={`sideBarMenu-link ${activeMenu === '/' ?'sideBarMenu-linkActive' : ''}`}>امار وب سایت</NavLink>
+                <NavLink to='/'  className={`sideBarMenu-link ${activeMenu === '/' ?'sideBarMenu-linkActive' : ''}`}>امار وب سایت</NavLink>
             </li>
         </ul>
     </div>
