@@ -1,0 +1,101 @@
+.navBar{
+    display: block;
+    width: 1049px;
+    background-color: var(--color-bg);
+    padding: 1rem;
+    position: fixed;
+}
+.navBar-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.navBarRight{
+    display: block;
+}
+.navBarRight-content{
+    display: block;
+}
+.navBarRight-content-title{
+    display: block;
+    font-family: var(--font-black);
+    font-size: 1.5rem;
+    color: var(--color-black);
+}
+.navBarRight-content-textLink{
+    display: block;
+    margin-top: 0.5rem;
+    font-family: var(--font-medium);
+}
+.navBarRight-content-text{
+    font-size: 1.1rem;
+    margin-left: 0.2rem;
+}
+.navBarRight-content-link{
+text-decoration: none;
+margin-right: 0.2rem;
+font-size: 1.1rem;
+color: var(--color-blue-1);
+}
+.navBarLeft{
+    display: flex;
+    align-items: center;
+}
+
+.navBarLeft-alert,
+.navBarLeft-message{
+    margin-left: 1.5rem;
+}
+
+.navBarLeft-Box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-white);
+    width: 40px;
+    height: 40px;
+    border-radius: 0.3rem;
+}
+.navBarLeft-alert-icon,
+.navBarLeft-message-icon{
+    font-size: 1.3rem;
+    color: var(--color-gray-1);
+    transition: all 0.4s ease-out;
+}
+.navBarLeft-alert-icon:hover,
+.navBarLeft-message-icon:hover{
+   color: var(--color-blue-2);
+}
+.navBarLeft-search{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 2.5rem;
+    background-color: var(--color-white);
+    border-radius: 0.3rem;
+    margin-left: 1.5rem;
+    overflow: hidden;
+}
+.navBarLeft-search-icon{
+    font-size: 1.5rem;
+    color: var(--color-gray-1);
+    padding-left: 0.3rem;
+}
+.navBarLeft-search-input{
+    width: 100%;
+    height: inherit;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    padding-right: 0.9rem;
+}
+
+.navBarLeft-pageAdmin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBarLeft-pageAdmin-img{
+    width: 40px;
+    border-radius: 50%;
+}

@@ -1,0 +1,10 @@
+.app{
+    display: flex;
+}
+.app-sidebar{
+    flex-basis: 300px;
+}
+.app-routes{
+    flex-basis: 80%;
+    margin:0 1rem;
+}
