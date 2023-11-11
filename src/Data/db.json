@@ -28,5 +28,82 @@
             "text":"تیم فروش ",
             "number":874
         }
+    ],
+    "Reports":[
+        {
+            "id":1,
+            "sale":221,
+            "average":947,
+            "year":1392
+        },
+        {
+            "id":2,
+            "sale":783,
+            "average":675,
+            "year":1393
+        },
+        {
+            "id":3,
+            "sale":987,
+            "average":743,
+            "year":1394
+        },
+        {
+            "id":4,
+            "sale":214,
+            "average":325,
+            "year":1395
+        },
+        {
+            "id":5,
+            "sale":345,
+            "average":347,
+            "year":1397
+        },
+        {
+            "id":6,
+            "sale":577,
+            "average":213,
+            "year":1398
+        },
+        {
+            "id":7,
+            "sale":876,
+            "average":432,
+            "year":1399
+        },
+        {
+            "id":8,
+            "sale":932,
+            "average":654,
+            "year":1400
+        }
+    ],
+    "RegionSale":[
+        {
+            "id":1,
+            "country":"افریقا",
+            "crowd":2478  
+        },
+        {
+            "id":2,
+            "country":"آسیا",
+            "crowd":2267
+        },
+        {
+            "id":3,
+            "country":"اروپا",
+            "crowd":734
+        },
+        {
+            "id":4,
+            "country":"امریکای لاتین",
+            "crowd":1284
+        },
+        {
+            "id":5,
+            "country":"امریکای شمالی",
+            "crowd":1933
+        }
     ]
 }

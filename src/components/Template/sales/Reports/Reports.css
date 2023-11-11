@@ -1,0 +1,40 @@
+.reports{
+    display: block;
+    width: 100%;
+}
+.reports-sale-average{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin: 1.5rem 0;
+}
+.reports-sale{
+    display: block;
+    background-color: var(--color-blue-1);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: var(--color-blue-3);
+}
+.reports-sale-number{
+    font-family: var(--font-black);
+    margin-bottom: 0.5rem;
+}
+.reports-sale-text{
+    font-family: var(--font-medium);
+    font-size: 0.9rem;
+}
+.reports-average{
+    display: block;
+    background-color: var(--color-red-2);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: var(--color-black);
+}
+.reports-average-number{
+    font-family: var(--font-black);
+    margin-bottom: 0.5rem;
+}
+.reports-average-text{
+    font-family: var(--font-medium);
+    font-size: 0.9rem;
+}
