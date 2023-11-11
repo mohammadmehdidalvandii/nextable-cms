@@ -1,7 +1,8 @@
 .sidebar{
     display: block;
-    width: 100%;
+    width: 290px;
     height: 100dvh;
+    position: fixed;
     background-color: var(--color-white);
     z-index: 999;
 }
