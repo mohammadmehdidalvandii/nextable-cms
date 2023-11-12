@@ -1,0 +1,38 @@
+.statusSales{
+    display: block;
+    width: 100%;
+}
+.status-chart{
+    display: block;
+    margin-top: 2rem;
+}
+
+.statusSaleReports{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.statusSales-item{  
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.statusSales-item:nth-child(1){  
+    background-color: var(--color-green-3);
+    color: var(--color-green-2);
+}
+.statusSales-item:nth-child(2){  
+    background-color: var(--color-red-2);
+    color: var(--color-red-1);
+}
+.statusSales-item-number{
+    display: block;
+    font-family: var(--font-black);
+    font-size: 1.2rem;
+}
+.statusSales-item-text{
+    display: block;
+    margin-top: 0.5rem;
+    font-family: var(--font-medium);
+    font-size: 0.9rem;
+}

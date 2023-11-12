@@ -1,0 +1,70 @@
+.networkSale{
+    display: block;
+    width: 100%;
+}
+.networkSale-average{
+    display: block;
+    margin: 2rem auto;
+    text-align: center ;
+}
+.networkSale-averageBox{
+ display: block;
+ margin: 2rem auto;
+ text-align: center ;
+ padding: 3rem 0;
+    background-color: var(--color-red-1);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    color: var(--color-white);
+}
+.networkSale-average-text{
+    display: block;
+    font-family: var(--font-black);
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.networkSale-average-number{
+    display: block;
+    font-family: var(--font-medium);
+    font-size: 2rem;
+}
+
+.networkSalePercent{
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--color-gray-2);
+}
+.networkSalePercent-box{
+    display: block;
+}
+.networkSalePercent-title{
+    font-family: var(--font-black);
+    color: var(--font-black);
+}
+.networkSalePercent-borderPercent{
+    display: flex;
+    align-items: baseline;
+    margin: 1rem 0;
+}
+.networkSalePercent-border{
+    display: inline;
+    position: relative;
+    width: 100%;
+    height: 0.5rem;
+    border-radius: 0.5rem;
+    z-index: 2;
+    background-color: var(--color-gray-2);
+}
+.networkSalePercent-border-br{
+    display: inline;
+    position: absolute;
+    height: inherit;
+    border-radius: 0.5rem;
+}
+.networkSalePercent-percentText{
+    font-family: var(--font-medium);
+    margin-right: 0.5rem;
+}
