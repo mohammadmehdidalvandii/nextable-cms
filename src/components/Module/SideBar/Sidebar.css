@@ -48,3 +48,9 @@
     border-radius: 0.4rem;
     margin-right: 1.5rem;
 }
+
+@media only screen and (max-width: 1200px) {
+    .sidebar{
+        display: none;
+    }
+}
