@@ -1,0 +1,36 @@
+.incomeRecent {
+  display: block;
+  width: 100%;
+  margin: 4rem 0;
+}
+
+.incomeRecent-item {
+  display: flex;
+  align-items: center;
+}
+.incomeRecent-item-boxIcon {
+  display: block;
+  border: 4px solid var(--color-green-1);
+  border-radius: 0.4rem;
+  padding: 1rem;
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: var(--color-green-1);
+}
+
+.incomeRecent-item-icon {
+}
+.incomeRecent-item-content {
+  display: block;
+}
+.incomeRecent-item-title {
+  display: block;
+  font-family: var(--font-medium);
+  font-size: 0.9rem;
+}
+.incomeRecent-item-number {
+  display: block;
+  margin-top: 1rem;
+  font-family: var(--font-black);
+  font-size: 1.1rem;
+}
