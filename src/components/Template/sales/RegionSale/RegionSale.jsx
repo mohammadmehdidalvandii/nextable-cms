@@ -8,6 +8,7 @@ import {
     CartesianGrid,
     Tooltip,
     Legend,
+    ResponsiveContainer
   } from 'recharts';
 
   import db from '../../../../Data/db.json'
@@ -19,6 +20,7 @@ function RegionSale() {
    <section className="regionSale">
         <h5 className="title">فروش های منطقه ای</h5>
         <div className="regionSale-chart">
+            <ResponsiveContainer width='100%' height={300}>
                 <ComposedChart
                     layout="vertical"
                     width={500}
@@ -39,6 +41,7 @@ function RegionSale() {
                     <Area/>
                     <Bar dataKey="crowd"  barSize={10} fill="#413ea0"/>
                 </ComposedChart>
+            </ResponsiveContainer>
         </div>
 
         <div className="regionSale-items">

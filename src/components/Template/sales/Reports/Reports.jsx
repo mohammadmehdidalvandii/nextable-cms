@@ -1,5 +1,5 @@
 import './Reports.css'
-import { BarChart,Bar,XAxis,YAxis,CartesianGrid,Tooltip,Legend,LabelList } from 'recharts'
+import { BarChart,Bar,XAxis,YAxis,CartesianGrid,Tooltip,Legend,LabelList ,ResponsiveContainer} from 'recharts'
 import db from '../../../../Data/db.json'
 import { useState } from 'react'
 function Reports() {
@@ -20,7 +20,7 @@ function Reports() {
                 <span className="reports-average-text">میانگین</span>
             </div>
         </div>
-
+            <ResponsiveContainer width='100%' height={300}>
             <BarChart
                 width={500} 
                 height={300}
@@ -35,6 +35,7 @@ function Reports() {
                 </Bar>
                 <Bar dataKey='average' fill="#55A6EB"  minPointSize={10}/>
             </BarChart>
+            </ResponsiveContainer>
     </div>
   )
 }

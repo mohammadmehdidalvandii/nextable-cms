@@ -1,5 +1,5 @@
 import './StatusSales.css'
-import { LineChart, Line, XAxis, YAxis, CartesianGrid , Tooltip} from 'recharts';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid , Tooltip, ResponsiveContainer } from 'recharts';
 import db from '../../../../Data/db.json'
 import { useState } from 'react';
 
@@ -9,14 +9,16 @@ function StatusSales() {
     <section className="statusSales">
         <h5 className="title">وضعیت خرید</h5>
         <div className="status-chart ">
-                <LineChart data={statusSale} height={400} width={500}  >
+            <ResponsiveContainer width="100%" height={400}>
+                <LineChart data={statusSale} height={400} width={400} >
                 <CartesianGrid  strokeDasharray="1"/>
                 <XAxis dataKey='month'/>
                 <YAxis />
                 <Tooltip/>
                 <Line dataKey='return' stroke="#0ABB87" strokeWidth={4} strokeDasharray="3 1"/>
                 <Line dataKey='success' stroke="#E04B4B" strokeWidth={4} strokeDasharray="3 1"/>
-            </LineChart>       
+            </LineChart>   
+            </ResponsiveContainer>    
         </div>
         <div className="statusSaleReports">
             <div className="statusSales-item">
