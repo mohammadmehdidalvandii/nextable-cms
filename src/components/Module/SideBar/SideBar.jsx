@@ -25,7 +25,7 @@ function SideBar() {
                 <NavLink to='/Management'  className={`sideBarMenu-link ${activeMenu === '/Management' ?'sideBarMenu-linkActive' : ''}`}>مدیریت</NavLink>
             </li>
             <li className="sidebarMenu">
-                <NavLink to='/' className={`sideBarMenu-link ${activeMenu === '/' ?'sideBarMenu-linkActive' : ''}`}>پشتیبانی</NavLink>
+                <NavLink to='/Support' className={`sideBarMenu-link ${activeMenu === '/Support' ?'sideBarMenu-linkActive' : ''}`}>پشتیبانی</NavLink>
             </li>
             <li className="sidebarMenu">
                 <NavLink to='/'  className={`sideBarMenu-link ${activeMenu === '/' ?'sideBarMenu-linkActive' : ''}`}>امار وب سایت</NavLink>
