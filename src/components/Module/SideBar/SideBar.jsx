@@ -22,7 +22,7 @@ function SideBar() {
                 <NavLink to='/Sale'  className={`sideBarMenu-link ${activeMenu === '/Sale' ?'sideBarMenu-linkActive' : ''}`}>فروش</NavLink>
             </li>
             <li className="sidebarMenu">
-                <NavLink to='/'  className={`sideBarMenu-link ${activeMenu === '/' ?'sideBarMenu-linkActive' : ''}`}>مدیریت</NavLink>
+                <NavLink to='/Management'  className={`sideBarMenu-link ${activeMenu === '/Management' ?'sideBarMenu-linkActive' : ''}`}>مدیریت</NavLink>
             </li>
             <li className="sidebarMenu">
                 <NavLink to='/' className={`sideBarMenu-link ${activeMenu === '/' ?'sideBarMenu-linkActive' : ''}`}>پشتیبانی</NavLink>

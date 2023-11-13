@@ -1,0 +1,39 @@
+.cardStatus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+    background-color: var(--color-blue-3);
+    padding: 1rem ;
+    border-radius: 0.5rem;
+}
+.cardStatus-imgNameJob{
+    display: flex;
+    align-items: center;
+}
+.cardStatus-img{
+ width: 70px;
+ border-radius: 50%;
+}
+.cardStatus-nameJob{
+    display: block;
+    margin-right: 1rem;
+}
+.cardStatus-name{
+  font-family: var(--font-black);
+  font-size: 1rem;
+}
+.cardStatus-job{
+    display: block;
+font-family: var(--font-medium);
+font-size: 0.9rem;
+margin-top: 1rem;
+color: var(--color-gray-1);
+}
+.cardStatus-status{
+    font-size: 1rem;
+    padding: 0.3rem;
+
+    border-radius: 0.2rem;
+    color: var(--color-white);
+}

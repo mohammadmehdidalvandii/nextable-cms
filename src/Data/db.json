@@ -216,5 +216,35 @@
             "return":"5",
             "success":"5"
         }
+    ],
+    "customersStatus":[
+        {
+            "id":1,
+            "name":"اما واتسون",
+            "job":"مهندس",
+            "status":"رد شد",
+            "color":"var(--color-red-1)"
+        },
+        {
+            "id":2,
+            "name":"تونی استارک",
+            "job":"منابع اسنانی",
+            "status":"اتمام یافته",
+            "color":"var(--color-green-1)"
+        },
+        {
+            "id":3,
+            "name":"استیو راجر",
+            "job":"مشاور املاک",
+            "status":"درامتظار",
+            "color":"var(--color-yellow-1)"
+        },
+        {
+            "id":4,
+            "name":"اولویور کویین",
+            "job":"مهندس",
+            "status":"اتمام یافته",
+            "color":"var(--color-green-1)"
+        }
     ]
 }

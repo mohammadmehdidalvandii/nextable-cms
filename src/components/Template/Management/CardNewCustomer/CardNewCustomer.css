@@ -1,0 +1,67 @@
+.cardNewCustomer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+    background-color: var(--color-blue-3);
+    padding: 1rem;
+    border-radius: 1rem;
+    position: relative;
+}
+.cardNewCustomer-imgNameJob{
+    display: flex;
+    align-items: center;
+}
+.cardNewCustomer-img{
+    width: 70px;
+    border-radius: 50%;
+}
+.cardNewCustomer-nameJob{
+    display: block;
+    margin-right: 1rem;
+}
+.cardNewCustomer-name{
+    font-family: var(--font-black);
+    font-size: 1rem;
+}
+.cardNewCustomer-job{
+    display: block;
+    font-family: var(--font-medium);
+    color: var(--color-gray-1);
+    margin-top: 1rem;
+}
+.cardCustomer{
+    text-align: center;
+    outline: none;
+    border: 1px solid var(--color-blue-1);
+    background-color: var(--color-blue-2);
+    color: var(--color-white);
+    font-size: 1.2rem;
+    border-radius: 1rem ;
+    transition: all 0.4s ease-out;
+}
+.cardCustomer:hover{
+    background-color: var(--color-blue-1);
+}
+.menuCustomer{
+    display: none;
+    position: absolute;
+    left: 1rem;
+    bottom: -5.5rem;
+    background-color: var(--color-white);
+    padding: 1rem;
+    border-radius: 0.3rem;
+    z-index: 777;
+}
+.menuCustomer-item{
+    font-family: var(--font-medium);
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+   
+}
+.menuCustomer-item:hover{
+    color: var(--color-blue-1);
+}
