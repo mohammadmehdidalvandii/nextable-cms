@@ -1,4 +1,5 @@
 import SupportTime from "../../components/Template/support/SupportTime/SupportTime"
+import TicketStatus from "../../components/Template/support/TicketStatus/TicketStatus"
 
 function Support() {
   return (
@@ -7,6 +8,7 @@ function Support() {
         <div className="row">
             <div className="col-lg-8  ">
             <SupportTime/>
+            <TicketStatus/>
               </div>
             <div className="col-lg-4  ">
                 this is col
