@@ -1,0 +1,23 @@
+.supportTime{
+    display: block;
+    width: 100%;
+}
+.supportTime-content{
+    display: block;
+    text-align: center;
+}
+.SupportTime-description{
+ display: block;
+ text-align: center;
+ margin: 1rem auto;
+ font-family: var(--font-medium);
+ font-size: 1.1rem;
+ width: 10rem;
+ line-height: 1.6;
+ color: var(--color-blue-1);
+}
+.SupportTime-time{
+    display: block;
+    font-size: 1.1rem;
+    color: var(--color-red-1);
+}
