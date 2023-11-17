@@ -1,4 +1,5 @@
 import CustomerConsent from "../../components/Template/support/CustomerConsent/CustomerConsent"
+import RecentActivity from "../../components/Template/support/RecentActivity/RecentActivity"
 import SupportTime from "../../components/Template/support/SupportTime/SupportTime"
 import TicketStatus from "../../components/Template/support/TicketStatus/TicketStatus"
 
@@ -13,7 +14,7 @@ function Support() {
             <CustomerConsent/>
               </div>
             <div className="col-lg-4  ">
-                this is col
+                <RecentActivity/>
             </div>
         </div>
     </section>

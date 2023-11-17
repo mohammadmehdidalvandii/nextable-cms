@@ -1,0 +1,28 @@
+.recentActivity{
+    display: block;
+    width: 100%;
+}
+.recentActivity-content{
+    display: block;
+}
+.recentActivity-items{
+    display: block;
+    margin: 2rem 0;
+}
+.recentActivity-item{
+    display: block;
+    margin: 1rem 0;
+    padding: 1rem;
+    font-family: var(--font-medium);
+    background-color: var(--color-blue-3);
+    border-radius: 0.5rem;
+}
+.recentActivity-item-paraph{
+    font-size: 1.1rem;
+    line-height: 1.4;
+    color: var(--color-black);
+}
+.recentActivity-item-time{
+    font-size: 0.9rem;
+    color: var(--color-gray-1);
+}
