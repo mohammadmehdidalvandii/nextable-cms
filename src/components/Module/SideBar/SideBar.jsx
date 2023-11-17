@@ -2,7 +2,7 @@ import './SideBar.css'
 import { NavLink, useLocation } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 function SideBar() {
-    const [activeMenu , setActiveMenu ] =useState('/Sale')
+    const [activeMenu , setActiveMenu ] =useState('/')
     const location = useLocation()
 
     useEffect(()=>{
@@ -19,7 +19,7 @@ function SideBar() {
             <h5 className="sidebar-title">داشبورد</h5>
         <ul className="sidebarMenus">
             <li className="sidebarMenu">
-                <NavLink to='/Sale'  className={`sideBarMenu-link ${activeMenu === '/Sale' ?'sideBarMenu-linkActive' : ''}`}>فروش</NavLink>
+                <NavLink to='/'  className={`sideBarMenu-link ${activeMenu === '/' ?'sideBarMenu-linkActive' : ''}`}>فروش</NavLink>
             </li>
             <li className="sidebarMenu">
                 <NavLink to='/Management'  className={`sideBarMenu-link ${activeMenu === '/Management' ?'sideBarMenu-linkActive' : ''}`}>مدیریت</NavLink>
@@ -28,7 +28,7 @@ function SideBar() {
                 <NavLink to='/Support' className={`sideBarMenu-link ${activeMenu === '/Support' ?'sideBarMenu-linkActive' : ''}`}>پشتیبانی</NavLink>
             </li>
             <li className="sidebarMenu">
-                <NavLink to='/'  className={`sideBarMenu-link ${activeMenu === '/' ?'sideBarMenu-linkActive' : ''}`}>امار وب سایت</NavLink>
+                <NavLink to='/Statistics'  className={`sideBarMenu-link ${activeMenu === '/Statistics' ?'sideBarMenu-linkActive' : ''}`}>امار وب سایت</NavLink>
             </li>
         </ul>
     </div>
