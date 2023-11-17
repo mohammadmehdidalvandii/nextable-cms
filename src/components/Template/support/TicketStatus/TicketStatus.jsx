@@ -10,7 +10,7 @@ import {
 } from "recharts";
 import db from '../../../../Data/db.json'
 import { useState } from "react";
-import { Route } from "react-router-dom";
+
 
 function TicketStatus() {
     const [ticketStatus ] =useState(db.ticketStatus)
