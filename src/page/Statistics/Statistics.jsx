@@ -1,8 +1,8 @@
-
+import StatisticsSite from "../../components/Template/statistics/StatisticsSite/StatisticsSite"
 
 function Statistics() {
   return (
-    <div>Statistics</div>
+    <StatisticsSite/>
   )
 }
 

@@ -332,5 +332,47 @@
             "solved":12,
             "waiting":11
         }
+    ],
+    "StatisticsSites":[
+        {
+            "id":1,
+            "number":3605,
+            "action":"تعداد کلیک",
+            "actionColor":"var(--color-blue-2)",
+            "paraph":"لورم ایپسوم متن ساختگی با تولید",
+            "bgColor":"var(--color-blue-2)",
+            "tColor":"var(--color-white)",
+            "percent":65
+        },
+        {
+            "id":2,
+            "number":3137,
+            "action":"تعداد بازدید",
+            "actionColor":"var(--color-green-3)",
+            "paraph":"لورم ایپسوم متن ساختگی با تولید",
+            "bgColor":"var(--color-green-3)",
+            "tColor":"var(--color-green-1)",
+            "percent":20
+        },
+        {
+            "id":3,
+            "number":8765,
+            "action":"مجموع تبدیل",
+            "actionColor":"var(--color-yellow-1)",
+            "paraph":"لورم ایپسوم متن ساختگی با تولید",
+            "bgColor":"var(--color-yellow-1)",
+            "tColor":"var(--color-black)",
+            "percent":75
+        },
+        {
+            "id":4,
+            "number":"68%",
+            "action":"نرخ بارگذاری",
+            "actionColor":"var(--color-blue-1)",
+            "paraph":"لورم ایپسوم متن ساختگی با تولید",
+            "bgColor":"var(--color-blue-1)",
+            "tColor":"var(--color-white)",
+            "percent":68
+        }
     ]
 }

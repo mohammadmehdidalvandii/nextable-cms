@@ -1,0 +1,40 @@
+.siteCard{
+    display: flex;
+    align-items: center;
+   
+}
+.siteCard-content{
+    display: block;
+}
+.siteCard-content-number{
+    font-family: var(--font-black);
+    font-size: 1.7rem;
+    color: var(--color-black);
+}
+.siteCard-content-action{
+    display: block;
+    margin: 1rem 0;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.siteCard-content-paraph{
+    font-size: 1rem;
+    color: var(--color-gray-1);
+    line-height: 1.7;
+}
+.siteCard-chart{
+
+}
+.chart-back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    background-color: var(--color-blue-1);
+    border-radius: 50%;
+}
+.chart-front{
+ font-size: 1.5rem;
+ font-weight: 8 00;
+}
