@@ -374,5 +374,113 @@
             "tColor":"var(--color-white)",
             "percent":68
         }
+    ],
+    "visitSites":[
+        {
+            "id":1,
+            "month":"فروردین",
+            "Europe":408,
+            "Africa":122
+        },
+        {
+            "id":2,
+            "month":"اردیبهشت",
+            "Europe":547,
+            "Africa":221
+        },
+        {
+            "id":3,
+            "month":"خرداد",
+            "Europe":675,
+            "Africa":783
+        },
+        {
+            "id":4,
+            "month":"تیر",
+            "Europe":743,
+            "Africa":1478
+        },
+        {
+            "id":5,
+            "month":"مرداد",
+            "Europe":122,
+            "Africa":821
+        },
+        {
+            "id":6,
+            "month":"شهریور",
+            "Europe":323,
+            "Africa":322
+        },
+        {
+            "id":7,
+            "month":"مهر",
+            "Europe":94,
+            "Africa":400
+        },
+        {
+            "id":8,
+            "month":"آبان",
+            "Europe":312,
+            "Africa":200
+        },
+        {
+            "id":9,
+            "month":"آذر",
+            "Europe":282,
+            "Africa":820
+        },
+        {
+            "id":10,
+            "month":"دی",
+            "Europe":500,
+            "Africa":300
+        },
+        {
+            "id":11,
+            "month":"بهمن",
+            "Europe":800,
+            "Africa":512
+        },
+        {
+            "id":12,
+            "month":"اسفند",
+            "Europe":1050,
+            "Africa":100
+        }
+    ],
+    "visitorClient":[
+        {
+            "id":1,
+            "title":"کاربران جدید",
+            "text":"65% دستیابی به هدف",
+            "number":13596,
+            "progress":"65%",
+            "bgColor":"var(--color-green-2)"
+        },
+        {
+            "id":2,
+            "title":"بازدید صفحه",
+            "text":"45% دستیابی به هدف",
+            "number":43568,
+            "progress":"45%",
+            "bgColor":"var(--color-red-2)"
+        },
+        {
+            "id":3,
+            "title":"بارگذاری صفحه",
+            "text":"20% دستیابی به هدف",
+            "number":14869,
+            "progress":"20%",
+            "bgColor":"var(--color-yellow-1)"
+        },
+        {
+            "id":4,
+            "title":"نوسان نرخ",
+            "text":"85% دستیابی به هدف",
+            "number":28.5,
+            "progress":"85%",
+            "bgColor":"var(--color-blue-2)"
+        }
     ]
 }

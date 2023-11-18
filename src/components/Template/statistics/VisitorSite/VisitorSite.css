@@ -1,0 +1,16 @@
+.visitorSite{
+    display: block;
+    width: 100%;
+    margin-top: 3rem;
+}
+.visitorSiteChart{
+    display: block;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+
+.visitor-content{
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+}
