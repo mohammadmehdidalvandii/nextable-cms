@@ -1,0 +1,62 @@
+.visit{
+    display: block;
+    width: 100%;
+    margin-top: 3rem;
+}
+.totalVisit{
+    display: block;
+    width: 100%;
+}
+.totalVisit-table{
+    display: block;
+    width: 100%;
+    margin-top: 2rem;
+}
+.totalVisit-thead{
+    padding-left: 7rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.totalVisit-thead-th{
+    font-family: var(--font-black);
+    font-size: 1.1rem;
+    color: var(--color-gray-1);
+
+}
+.totalVisit-tbody{
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.totalVisit-tbody-tr{
+    padding-left: 3rem;
+    width: 100%;
+}
+
+.totalVisit-tbody-pageName{
+    display: block;
+    width: 100%;
+    font-family: var(--font-medium);
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-black);
+}
+.totalVisit-tbody-progress{ 
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-gray-2);
+}
+.totalVisit-tbody-front{
+    display: block;
+    position: absolute;
+    width: 45%;
+    height: inherit;
+    border-radius: 0.5rem;
+    background-color: var(--color-red-1);
+}

@@ -482,5 +482,37 @@
             "progress":"85%",
             "bgColor":"var(--color-blue-2)"
         }
+    ],
+    "visitPages":[
+        {
+            "id":1,
+            "pageName":"صفحه اصلی",
+            "progress":"63.35%",
+            "color":"var(--color-blue-1)"
+        },
+        {
+            "id":2,
+            "pageName":"درباره من",
+            "progress":"51.20%",
+            "color":"var(--color-yellow-1)"
+        },
+        {
+            "id":3,
+            "pageName":"محصولات",
+            "progress":"39.10%",
+            "color":"var(--color-red-1)"
+        },
+        {
+            "id":4,
+            "pageName":"دسته بندی ها",
+            "progress":"40%",
+            "color":"var(--color-blue-2)"
+        },
+        {
+            "id":5,
+            "pageName":"تماس",
+            "progress":"80%",
+            "color":"var(--color-green-2)"
+        }
     ]
 }
