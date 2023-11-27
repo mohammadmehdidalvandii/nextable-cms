@@ -1,11 +1,35 @@
 import "./Navbar.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { BiSolidBellRing, BiMessage, BiSearchAlt2 } from "react-icons/bi";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+
+
 
 function Navbar() {
   const [menuMsg ,setMenuMsg] =useState(false)
   const [menuAlert , setMenuAlert] =useState(false)
+  const [title , setTitle] =useState('')
+
+
+  const location = useLocation()
+
+
+  useEffect(()=>{
+    const pathName = location.pathname
+    if(pathName === '/'){
+      setTitle('فروش')
+    } else if(pathName === '/Management'){
+      setTitle('مدیریت')
+    } else if(pathName === '/Support'){
+      setTitle('پشتیبانی')
+    } else if(pathName === '/Statistics'){
+      setTitle('آمار وب سایت')
+    }
+
+  
+  },[location])
+
+
 
   const handlerMenuAlert = ()=>{
     setMenuAlert(!menuAlert)
@@ -22,10 +46,10 @@ function Navbar() {
         <div className="col-lg-6 col-md-12">
           <div className="navBarRight">
             <div className="navBarRight-content">
-              <h4 className="navBarRight-content-title">داشبورد</h4>
+              <h4 className="navBarRight-content-title">{title}</h4>
               <div className="navBarRight-content-textLink">
                 <span className="navBarRight-content-text">داشبورد</span>/
-                <span className="navBarRight-content-link">فروش</span>
+                <span className="navBarRight-content-link">{title}</span>
               </div>
             </div>
           </div>
