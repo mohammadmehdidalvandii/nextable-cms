@@ -1,3 +1,4 @@
+import ProfileStatus from "../../components/Template/profile/ProfileStatus/ProfileStatus"
 
 
 function Profile() {
@@ -5,7 +6,7 @@ function Profile() {
     <section className="profile">
         <div className="row ">
             <div className="col-12">
-                    this is col-12
+                    <ProfileStatus/>
             </div>
         </div>
         <div className="row mt-5">
