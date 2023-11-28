@@ -12,8 +12,8 @@ function StatusSales() {
             <ResponsiveContainer width="100%" height={400}>
                 <LineChart data={statusSale} height={400} width={400} >
                 <CartesianGrid  strokeDasharray="1"/>
-                <XAxis dataKey='month'/>
-                <YAxis />
+                <XAxis dataKey='month' angle={-15} tickMargin={9}/>
+                <YAxis tickMargin={10} />
                 <Tooltip/>
                 <Line dataKey='return' stroke="#0ABB87" strokeWidth={4} strokeDasharray="3 1"/>
                 <Line dataKey='success' stroke="#E04B4B" strokeWidth={4} strokeDasharray="3 1"/>

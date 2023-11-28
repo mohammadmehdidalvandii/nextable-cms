@@ -27,10 +27,10 @@ function Reports() {
                 data={reports}
             >
                 <CartesianGrid strokeDasharray="2"/>
-                <XAxis dataKey='year' />
-                <YAxis/>
+                <XAxis dataKey='year' angle={-45} tickMargin={10}/>
+                <YAxis tickMargin={30}/>
                 <Tooltip/>
-                <Legend/>
+                {/* <Legend/> */}
                 <Bar   dataKey="sale" fill="#3B5998" minPointSize={10} >
                 </Bar>
                 <Bar dataKey='average' fill="#55A6EB"  minPointSize={10}/>

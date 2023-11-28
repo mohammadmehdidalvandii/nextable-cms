@@ -34,8 +34,8 @@ function RegionSale() {
                       }}
                 >
                     <CartesianGrid stroke="#55A6EB"/>
-                    <XAxis type='number'/>
-                    <YAxis dataKey="country" type="category" scale="band" />
+                    <XAxis type='number' angle={-25} tickMargin={10}/>
+                    <YAxis dataKey="country" type="category" scale="band" tickMargin={50} />
                     <Tooltip/>
                     <Legend/>
                     <Area/>
