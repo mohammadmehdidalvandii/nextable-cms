@@ -24,6 +24,8 @@ function Navbar() {
       setTitle('پشتیبانی')
     } else if(pathName === '/Statistics'){
       setTitle('آمار وب سایت')
+    } else if(pathName === '/Profile'){
+      setTitle('پروفایل')
     }
 
   

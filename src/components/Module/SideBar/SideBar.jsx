@@ -30,6 +30,9 @@ function SideBar() {
             <li className="sidebarMenu">
                 <NavLink to='/Statistics'  className={`sideBarMenu-link ${activeMenu === '/Statistics' ?'sideBarMenu-linkActive' : ''}`}>امار وب سایت</NavLink>
             </li>
+            <li className="sidebarMenu">
+                <NavLink to='/Profile'  className={`sideBarMenu-link ${activeMenu === '/Profile' ?'sideBarMenu-linkActive' : ''}`}>پروفایل</NavLink>
+            </li>
         </ul>
     </div>
    </aside>
