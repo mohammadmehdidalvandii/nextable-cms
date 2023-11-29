@@ -1,3 +1,4 @@
+import AddActivity from "../../components/Template/profile/AddActivity/AddActivity"
 import ProfileStatus from "../../components/Template/profile/ProfileStatus/ProfileStatus"
 
 
@@ -11,7 +12,7 @@ function Profile() {
         </div>
         <div className="row mt-5">
             <div className="col-lg-8 col-md-12">
-                this is col 8
+               <AddActivity/>
             </div>
             <div className="col-lg-4 col-md-12">
                 this is col 4
