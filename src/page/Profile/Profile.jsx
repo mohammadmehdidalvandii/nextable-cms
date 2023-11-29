@@ -1,6 +1,6 @@
 import AddActivity from "../../components/Template/profile/AddActivity/AddActivity"
 import ProfileStatus from "../../components/Template/profile/ProfileStatus/ProfileStatus"
-
+import EditProfile from "../../components/Template/profile/EditProfile/EditProfile"
 
 function Profile() {
   return (
@@ -15,7 +15,7 @@ function Profile() {
                <AddActivity/>
             </div>
             <div className="col-lg-4 col-md-12">
-                this is col 4
+                <EditProfile/>
             </div>
         </div>
         
